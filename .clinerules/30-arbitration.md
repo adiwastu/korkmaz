@@ -24,11 +24,10 @@ the budget converts an argument about priorities into a number.
 
 ## Reading the budget
 
-<!-- FILL: the command or dashboard that returns current burn. -->
+{{FILL: the command that prints the remaining error budget for this project. Examples: a promtool query, a Datadog SLO API call, a gh workflow run, or an MCP call.}}
 
 ```bash
-# e.g. a promtool query, a Datadog SLO API call, a `gh` workflow, or an MCP call
-<command that prints remaining error budget>
+{{FILL: command}}
 ```
 
 If you cannot determine the current budget, **assume Caution**. Never assume

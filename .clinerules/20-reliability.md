@@ -16,13 +16,13 @@ would have to be true for you to accept it.
 
 ## Service level objectives
 
-<!-- FILL: replace with your real SLOs. These are placeholders. -->
+{{FILL: the services, SLIs, and SLO targets for this project. Delete the rows that do not apply.}}
 
 | Service | SLI | SLO | Window |
 | --- | --- | --- | --- |
-| `<service>` | availability (non-5xx / total) | 99.9% | 30d rolling |
-| `<service>` | latency (p95) | < 300ms | 30d rolling |
-| `<service>` | correctness (job success rate) | 99.5% | 30d rolling |
+| {{FILL: service name}} | availability (non-5xx / total) | 99.9% | 30d rolling |
+| {{FILL: service name}} | latency (p95) | < 300ms | 30d rolling |
+| {{FILL: service name}} | correctness (job success rate) | 99.5% | 30d rolling |
 
 Error budget = `100% − SLO`. At 99.9% over 30 days that is **43m 12s** of
 budget. `30-arbitration.md` governs what happens as it drains.
@@ -58,13 +58,13 @@ the author present.
 
 ## Runbooks
 
-<!-- FILL: link your real runbooks, or delete this section. -->
+{{FILL: links to the runbooks for this project. Delete this section if there are no runbooks.}}
 
 | Symptom | Runbook |
 | --- | --- |
-| Elevated 5xx | `<link>` |
-| Latency regression | `<link>` |
-| Queue backlog | `<link>` |
+| Elevated 5xx | {{FILL: link}} |
+| Latency regression | {{FILL: link}} |
+| Queue backlog | {{FILL: link}} |
 
 ## Incident posture
 
